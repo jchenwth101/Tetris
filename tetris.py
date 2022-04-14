@@ -1,13 +1,16 @@
 #Joel Chenoweth
 #12-05-20
-#portfolio project Analysis of Algorithms
+#portfolio project Analysis of Algorithms in attempt to prove Tetris is close to np complete
 
 
 
 import pygame
 import random
 import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
+#os.environ["SDL_VIDEODRIVER"] = "dummy"
+#os.environ["SDL_VIDEODRIVER"] = "dummy"
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+
 
 """
 10 x 20 square grid
